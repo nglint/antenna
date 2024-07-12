@@ -50,7 +50,7 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
         return 0;
 int f=2400000000,N=8,v=1,ph2=0,th2=0;
     int a[10]={1 ,9 ,36 ,84 ,126 ,126, 84, 36 ,9, 1};
-float x[64800]={0},y[64800]={0},th=0,lan=f/300000000,k=(pi*2),d,B,z[64800]={0},max=0,rx,ry;
+float x[64800]={0},y[64800]={0},th=0,k=(pi*2),d,B,z[64800]={0},max=0,rx,ry;
 N=10;
 B=0;
 B=B*(pi/180);
