@@ -54,7 +54,7 @@ float x[64800]={0},y[64800]={0},th=0,k=(pi*2),d,B,z[64800]={0},max=0,rx,ry;
 N=10;
 B=0;
 B=B*(pi/180);
-d=(1/4);
+d=0.25;
 
     hwnd = CreateWindowEx(0,"GLSample","OpenGL Sample",WS_OVERLAPPEDWINDOW,CW_USEDEFAULT,CW_USEDEFAULT,
                           1920,
